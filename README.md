@@ -1,8 +1,6 @@
 # odin-recipes
 
-Rough website about  recipes
+Project done about Recipes from Video Games
 
-Step 1 Theme:
-	-Foods from Video Games
-
+Only with HTML and CSS
 
