@@ -1,0 +1,215 @@
+/* styles.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+     
+    min-height: 100vh; /* Make sure the body takes up at least the viewport height */
+}
+#backgroundPic {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 250px;
+    align-items: center;
+    
+}
+.header {
+    background-color: #0fc8b9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.navbar a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+
+/* Main Content Styles */
+main {
+    flex: 1; /* Allow the main content to grow and take up remaining space */
+    padding: 1em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+
+/*--------------------RECIPE--------*/
+ #title{
+    color: white;
+    font-size: 30px;
+}
+
+#subTitle{
+    color: white;
+    font-size: 20px;
+}
+.header-recipe {
+    background-color: #0fc8b9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* Recipe content styles */
+#recipe-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#recipe-introduction img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto; /* Center horizontally */
+}
+
+#recipe-introduction p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+#recipe-introduction ul {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #666;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+#ingredients {
+    margin-top: 20px;
+    
+}
+
+#ingredients h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+#ingredients h3 {
+    font-size: 20px;
+    color: #666;
+    margin-top: 15px;
+}
+
+
+
+.ingredient-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: antiquewhite;
+}
+
+.ingredient-list {
+    flex: 1;
+    margin-right: 20px; /* Add spacing between the lists */
+}
+
+/* Additional styling for the lists */
+.ingredient-list h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ingredient-list ul {
+    list-style: none;
+    font-size: 16px;
+    color: #666;
+}
+
+.ingredient-list li {
+    margin-bottom: 5px;
+}
+
+.ingredient-list p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+/* Assuming you have other styles defined earlier */
+
+.instructions-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Spread sections horizontally */
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.instructions-container h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.instructions-container ol {
+    list-style: decimal;
+    font-size: 18px;
+    color: #666;
+    margin-left: 20px;
+}
+
+.instructions-container li {
+    margin-bottom: 15px;
+}
+
+.instructions-container li strong {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.instructions-container p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5;
+}
